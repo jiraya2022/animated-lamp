@@ -1,85 +1,85 @@
 class Messages:
     ADDED_TO_QUEUE = (
-        "Your request has been added to the queue. If you have more than {per_user_process_count} "
-        "ongoing processes, then this process will only start after one of them finishes."
+        "Yᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ ʜᴀs ʙᴇᴇɴ ᴀᴅᴅᴇᴅ ᴛᴏ ᴛʜᴇ ᴏ̨ᴜᴇᴜᴇ. Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴍᴏʀᴇ ᴛʜᴀɴ {per_user_process_count} "
+        "ᴏɴɢᴏɪɴɢ ᴘʀᴏᴄᴇssᴇs, ᴛʜᴇɴ ᴛʜɪs ᴘʀᴏᴄᴇss ᴡɪʟʟ ᴏɴʟʏ sᴛᴀʀᴛ ᴀғᴛᴇʀ ᴏɴᴇ ᴏғ ᴛʜᴇᴍ ғɪɴɪsʜᴇs."
     )
-    MEDIA_MESSAGE_DELETED = "Why did you delete the file 😠, Now i cannot help you 😒."
-    CANNOT_OPEN_FILE = "😟 Sorry! I cannot open the file."
+    MEDIA_MESSAGE_DELETED = "Wʜʏ ᴅɪᴅ ʏᴏᴜ ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ғɪʟᴇ 😠, Nᴏᴡ ɪ ᴄᴀɴɴᴏᴛ ʜᴇʟᴘ ʏᴏᴜ 😒."
+    CANNOT_OPEN_FILE = "😟 Sᴏʀʀʏ! I ᴄᴀɴɴᴏᴛ ᴏᴘᴇɴ ᴛʜᴇ ғɪʟᴇ."
     PROCESS_TIMEOUT = (
-        "😟 Sorry! process failed due to timeout. Your process was "
-        "taking too long to complete, hence cancelled."
+        "😟 Sᴏʀʀʏ! ᴘʀᴏᴄᴇss ғᴀɪʟᴇᴅ ᴅᴜᴇ ᴛᴏ ᴛɪᴍᴇᴏᴜᴛ. Yᴏᴜʀ ᴘʀᴏᴄᴇss ᴡᴀs"
+        "ᴛᴀᴋɪɴɢ ᴛᴏᴏ ʟᴏɴɢ ᴛᴏ ᴄᴏᴍᴘʟᴇᴛᴇ, ʜᴇɴᴄᴇ ᴄᴀɴᴄᴇʟʟᴇᴅ."
     )
-    TRACK_USER_ACTIVITY = "User id: `{chat_id}`"
-    PROCESSING_REQUEST = "Processing your request, Please wait! 😴"
-    SCREENSHOT_AT = "ScreenShot at {time}"
-    SCREENSHOT_PROCESS_FAILED = "😟 Sorry! Screenshot generation failed possibly due to some infrastructure failure 😥."
+    TRACK_USER_ACTIVITY = "Usᴇʀ ɪᴅ: {chat_id}"
+    PROCESSING_REQUEST = "Pʀᴏᴄᴇssɪɴɢ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ, Pʟᴇᴀsᴇ ᴡᴀɪᴛ! 😴"
+    SCREENSHOT_AT = "Sᴄʀᴇᴇɴsʜᴏᴛ ᴀᴛ {time}"
+    SCREENSHOT_PROCESS_FAILED = "😟 Sᴏʀʀʏ! Sᴄʀᴇᴇɴsʜᴏᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ғᴀɪʟᴇᴅ ᴘᴏssɪʙʟʏ ᴅᴜᴇ ᴛᴏ sᴏᴍᴇ ɪɴғʀᴀsᴛʀᴜᴄᴛᴜʀᴇ ғᴀɪʟᴜʀᴇ 😥."
     SCREENSHOT_PROCESS_SUCCESS = (
-        "🤓 You requested {count} screenshots and "
-        "{total_count} screenshots generated, "
-        "Now starting to upload!"
+        "🤓 Yᴏᴜ ʀᴇᴏ̨ᴜᴇsᴛᴇᴅ {count} sᴄʀᴇᴇɴsʜᴏᴛs ᴀɴᴅ"
+        "{total_count} sᴄʀᴇᴇɴsʜᴏᴛs ɢᴇɴᴇʀᴀᴛᴇᴅ,"
+        "Nᴏᴡ sᴛᴀʀᴛɪɴɢ ᴛᴏ ᴜᴘʟᴏᴀᴅ"
     )
     PROCESS_UPLOAD_CONFIRM = (
-        "Successfully completed process in {total_process_duration}\n\n"
-        "If You find me helpful, please rate me [here](tg://resolve?domain=botsarchive&post=1206)."
+        "Sᴜᴄᴄᴇssғᴜʟʟʏ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴘʀᴏᴄᴇss ɪɴ {total_process_duration}\n\n"
+        "Iғ Yᴏᴜ ғɪɴᴅ ᴍᴇ ʜᴇʟᴘғᴜʟ, ᴘʟᴇᴀsᴇ Dᴏɴᴀᴛᴇ ᴍᴇ [Hᴇʀᴇ](https://aslink.in/payy)."
     )
-    WRONG_FORMAT = "Please follow the specified format"
-    VIDEO_PROCESS_CAPTION = "Sample video. {duration}s from {start}"
-    SCREENSHOTS_START = "😀 Generating screenshots!."
+    WRONG_FORMAT = "Pʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜᴇ sᴘᴇᴄɪғɪᴇᴅ ғᴏʀᴍᴀᴛ"
+    VIDEO_PROCESS_CAPTION = "Sᴀᴍᴘʟᴇ ᴠɪᴅᴇᴏ. {duration}s ғʀᴏᴍ {start}"
+    SCREENSHOTS_START = "🌿 Gᴇɴᴇʀᴀᴛɪɴɢ Sᴄʀᴇᴇɴsʜᴏᴛs...!"
 
-    SAMPLE_VIDEO_PROCESS_START = "😀 Generating Sample Video! This might take some time."
-    SAMPLE_VIDEO_PROCESS_FAILED = "😟 Sorry! Sample video generation failed possibly due to some infrastructure failure 😥."
+    SAMPLE_VIDEO_PROCESS_START = "Gᴇɴᴇʀᴀᴛɪɴɢ Sᴀᴍᴘʟᴇ Vɪᴅᴇᴏ...! Tʜɪs ᴍɪɢʜᴛ ᴛᴀᴋᴇ sᴏᴍᴇ ᴛɪᴍᴇ."
+    SAMPLE_VIDEO_PROCESS_FAILED = "😟 Sᴏʀʀʏ! Sᴀᴍᴘʟᴇ ᴠɪᴅᴇᴏ ɢᴇɴᴇʀᴀᴛɪᴏɴ ғᴀɪʟᴇᴅ ᴘᴏssɪʙʟʏ ᴅᴜᴇ ᴛᴏ sᴏᴍᴇ ɪɴғʀᴀsᴛʀᴜᴄᴛᴜʀᴇ ғᴀɪʟᴜʀᴇ 😥."
     SAMPLE_VIDEO_PROCESS_SUCCESS = (
-        "🤓 Sample video was generated successfully!, Now starting to upload!"
+        "🤓 Sᴀᴍᴘʟᴇ ᴠɪᴅᴇᴏ ᴡᴀs ɢᴇɴᴇʀᴀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ, Nᴏᴡ sᴛᴀʀᴛɪɴɢ ᴛᴏ ᴜᴘʟᴏᴀᴅ"
     )
     SAMPLE_VIDEO_PROCESS_FAILED_GENERATION = (
-        "stream link : {file_link}\n\n duration {sample_duration} sample video "
-        "generation failed\n\n{ffmpeg_output}"
+        "sᴛʀᴇᴀᴍ ʟɪɴᴋ : {file_link}\n\n ᴅᴜʀᴀᴛɪᴏɴ {sample_duration} sᴀᴍᴘʟᴇ ᴠɪᴅᴇᴏ"
+        "ɢᴇɴᴇʀᴀᴛɪᴏɴ ғᴀɪʟᴇᴅ\n\n{ffmpeg_output}"
     )
     SAMPLE_VIDEO_PROCESS_OPEN_ERROR = (
-        "stream link : {file_link}\n\nSample video requested\n\n{duration}"
+        "sᴛʀᴇᴀᴍ ʟɪɴᴋ : {file_link}\n\nSᴀᴍᴘʟᴇ ᴠɪᴅᴇᴏ ʀᴇᴏ̨ᴜᴇsᴛᴇᴅ\n\n{duration}"
     )
 
-    SCREENSHOTS_PROGRESS = "😀 `{current}` of `{total}` generated!"
+    SCREENSHOTS_PROGRESS = "`{current}` of `{total}` generated!"
     MANUAL_SCREENSHOTS_OPEN_ERROR = (
-        "stream link : {file_link}\n\nRequested manual screenshots\n\n{duration}"
+        "sᴛʀᴇᴀᴍ ʟɪɴᴋ : {file_link}\n\nRᴇᴏ̨ᴜᴇsᴛᴇᴅ ᴍᴀɴᴜᴀʟ sᴄʀᴇᴇɴsʜᴏᴛs\n\n{duration}"
     )
     MANUAL_SCREENSHOTS_NO_VALID_POSITIONS = (
-        "😟 Sorry! None of the given positions where valid!"
+        "😟 Sᴏʀʀʏ! Nᴏɴᴇ ᴏғ ᴛʜᴇ ɢɪᴠᴇɴ ᴘᴏsɪᴛɪᴏɴs ᴡʜᴇʀᴇ ᴠᴀʟɪᴅ"
     )
     MANUAL_SCREENSHOTS_VALID_PISITIONS_ABOVE_LIMIT = (
-        "😟 Sorry! Only 10 screenshots can be generated. Found {valid_positions_count} "
-        "valid positions in your request"
+        "😟 Sᴏʀʀʏ! Oɴʟʏ 10 sᴄʀᴇᴇɴsʜᴏᴛs ᴄᴀɴ ʙᴇ ɢᴇɴᴇʀᴀᴛᴇᴅ. Fᴏᴜɴᴅ {valid_positions_count} "
+        "ᴠᴀʟɪᴅ ᴘᴏsɪᴛɪᴏɴs ɪɴ ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ"
     )
     MANUAL_SCREENSHOTS_INVALID_POSITIONS_ALERT = (
-        "Found {invalid_positions_count} invalid positions ({invalid_positions}).\n\n"
-        "😀 Generating screenshots after ignoring these!."
+        "Fᴏᴜɴᴅ {invalid_positions_count} ɪɴᴠᴀʟɪᴅ ᴘᴏsɪᴛɪᴏɴs ({invalid_positions}).\n\n"
+        "😀 Gᴇɴᴇʀᴀᴛɪɴɢ sᴄʀᴇᴇɴsʜᴏᴛs ᴀғᴛᴇʀ ɪɢɴᴏʀɪɴɢ ᴛʜᴇsᴇ!"
     )
     MANUAL_SCREENSHOTS_FAILED_GENERATION = (
-        "stream link : {file_link}\n\nmanual screenshots {raw_user_input}."
+        "sᴛʀᴇᴀᴍ ʟɪɴᴋ : {file_link}\n\nᴍᴀɴᴜᴀʟ sᴄʀᴇᴇɴsʜᴏᴛs {raw_user_input}."
     )
 
-    TRIM_VIDEO_INVALID_RANGE = "The range you provided is invalid!"
+    TRIM_VIDEO_INVALID_RANGE = "Tʜᴇ ʀᴀɴɢᴇ ʏᴏᴜ ᴘʀᴏᴠɪᴅᴇᴅ ɪs ɪɴᴠᴀʟɪᴅ"
     TRIM_VIDEO_DURATION_ERROR = (
-        "Please provide any range that's upto {max_duration}s."
-        " Your requested range **{start}:{end}** is `{request_duration}s` long!"
+        "Pʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀɴʏ ʀᴀɴɢᴇ ᴛʜᴀᴛ's ᴜᴘᴛᴏ {max_duration}s."
+        " Yᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛᴇᴅ ʀᴀɴɢᴇ **{start}:{end}** is `{request_duration}s` ʟᴏɴɢ!"
     )
-    TRIM_VIDEO_OPEN_ERROR = "stream link : {file_link}\n\ntrim video requested\n\n{start}:{end}\n\n{duration}"
+    TRIM_VIDEO_OPEN_ERROR = "sᴛʀᴇᴀᴍ ʟɪɴᴋ : {file_link}\n\nᴛʀɪᴍ ᴠɪᴅᴇᴏ ʀᴇᴏ̨ᴜᴇsᴛᴇᴅ\n\n{start}:{end}\n\n{duration}"
     TRIM_VIDEO_RANGE_OUT_OF_VIDEO_DURATION = (
-        "😟 Sorry! The requested range is out of the video's duration!."
+        "😟 Sᴏʀʀʏ! Tʜᴇ ʀᴇᴏ̨ᴜᴇsᴛᴇᴅ ʀᴀɴɢᴇ ɪs ᴏᴜᴛ ᴏғ ᴛʜᴇ ᴠɪᴅᴇᴏ's ᴅᴜʀᴀᴛɪᴏɴ!"
     )
     TRIM_VIDEO_PROCESS_FAILED = (
-        "😟 Sorry! video trimming failed possibly due to some infrastructure failure 😥."
+        "😟 Sᴏʀʀʏ! ᴠɪᴅᴇᴏ ᴛʀɪᴍᴍɪɴɢ ғᴀɪʟᴇᴅ ᴘᴏssɪʙʟʏ ᴅᴜᴇ ᴛᴏ sᴏᴍᴇ ɪɴғʀᴀsᴛʀᴜᴄᴛᴜʀᴇ ғᴀɪʟᴜʀᴇ 😥."
     )
     TRIM_VIDEO_PROCESS_FAILED_GENERATION = "stream link : {file_link}\n\nVideo trim failed.\n\n{start}:{end}\n\n{ffmpeg_output}"
     TRIM_VIDEO_PROCESS_SUCCESS = (
-        "🤓 Video trimmed successfully!, Now starting to upload!"
+        "🤓 Vɪᴅᴇᴏ ᴛʀɪᴍᴍᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ!, Nᴏᴡ sᴛᴀʀᴛɪɴɢ ᴛᴏ ᴜᴘʟᴏᴀᴅ"
     )
-    TRIM_VIDEO_START = "😀 Trimming Your Video! This might take some time."
+    TRIM_VIDEO_START = "😀 Tʀɪᴍᴍɪɴɢ Yᴏᴜʀ Vɪᴅᴇᴏ! Tʜɪs ᴍɪɢʜᴛ ᴛᴀᴋᴇ sᴏᴍᴇ ᴛɪᴍᴇ."
 
-    SCREENSHOTS_OPEN_ERROR = "stream link : {file_link}\n\nRequested screenshots: {num_screenshots}.\n\n{duration}"
+    SCREENSHOTS_OPEN_ERROR = "sᴛʀᴇᴀᴍ ʟɪɴᴋ : {file_link}\n\nRᴇᴏ̨ᴜᴇsᴛᴇᴅ sᴄʀᴇᴇɴsʜᴏᴛs: {num_screenshots}.\n\n{duration}"
     SCREENSHOTS_FAILED_GENERATION = (
-        "stream link : {file_link}\n\n{num_screenshots} screenshots where requested "
-        "and Screen shots where not generated."
+        "sᴛʀᴇᴀᴍ ʟɪɴᴋ : {file_link}\n\n{num_screenshots} screenshots where requested "
+        "ᴀɴᴅ Sᴄʀᴇᴇɴ sʜᴏᴛs ᴡʜᴇʀᴇ ɴᴏᴛ ɢᴇɴᴇʀᴀᴛᴇᴅ."
     )
 
-    MEDIAINFO_START = "Finding the media info, media info will be send here shortly!"
+    MEDIAINFO_START = "Fɪɴᴅɪɴɢ ᴛʜᴇ ᴍᴇᴅɪᴀ ɪɴғᴏ, ᴍᴇᴅɪᴀ ɪɴғᴏ ᴡɪʟʟ ʙᴇ sᴇɴᴅ ʜᴇʀᴇ sʜᴏʀᴛʟʏ!"
