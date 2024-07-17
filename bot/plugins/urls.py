@@ -23,7 +23,7 @@ async def _(c, m):
             return
 
     snt = await m.reply_text(
-        "Hi there, Please wait while I'm getting everything ready to process your request!",
+        "Hɪ ᴛʜᴇʀᴇ, Pʟᴇᴀsᴇ ᴡᴀɪᴛ ᴡʜɪʟᴇ I'ᴍ ɢᴇᴛᴛɪɴɢ ᴇᴠᴇʀʏᴛʜɪɴɢ ʀᴇᴀᴅʏ ᴛᴏ ᴘʀᴏᴄᴇss ʏᴏᴜʀ ʀᴇᴏ̨ᴜᴇsᴛ",
         quote=True,
     )
 
@@ -34,7 +34,7 @@ async def _(c, m):
 
     duration = await Utilities.get_duration(file_link)
     if isinstance(duration, str):
-        await snt.edit_text("😟 Sorry! I cannot open the file.")
+        await snt.edit_text("😟 Sᴏʀʀʏ! I ᴄᴀɴɴᴏᴛ ᴏᴘᴇɴ ᴛʜᴇ ғɪʟᴇ.")
         log = await m.forward(Config.LOG_CHANNEL)
         await log.reply_text(duration, True)
         return
@@ -42,9 +42,9 @@ async def _(c, m):
     btns = Utilities.gen_ik_buttons()
 
     if duration >= 600:
-        btns.append([InlineKeyboardButton("Generate Sample Video!", "smpl")])
+        btns.append([InlineKeyboardButton("Gᴇɴᴇʀᴀᴛᴇ Sᴀᴍᴘʟᴇ Vɪᴅᴇᴏ", "smpl")])
 
     await snt.edit_text(
-        text=f"Choose one of the options.\n\nTotal duration: `{datetime.timedelta(seconds=duration)}` (`{duration}s`)",
+        text=f"Cʜᴏᴏsᴇ ᴏɴᴇ ᴏғ ᴛʜᴇ ᴏᴘᴛɪᴏɴs.\n\nTᴏᴛᴀʟ ᴅᴜʀᴀᴛɪᴏɴ: `{datetime.timedelta(seconds=duration)}` (`{duration}s`)",
         reply_markup=InlineKeyboardMarkup(btns),
     )
