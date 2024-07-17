@@ -14,8 +14,8 @@ async def _(c, m):
     await m.message.delete(True)
     await c.send_message(
         m.from_user.id,
-        f"#trim_video\n\n{dur}\n\nNow send your start and end seconds in the given format and should "
-        f"be upto {Config.MAX_TRIM_DURATION}s. \n**start:end**\n\nEg: `400:500` ==> This trims video from 400s to 500s",
+        f"#ᴛʀɪᴍ_ᴠɪᴅᴇᴏ\n\n{dur}\n\nNᴏᴡ sᴇɴᴅ ʏᴏᴜʀ sᴛᴀʀᴛ ᴀɴᴅ ᴇɴᴅ sᴇᴄᴏɴᴅs ɪɴ ᴛʜᴇ ɢɪᴠᴇɴ ғᴏʀᴍᴀᴛ ᴀɴᴅ sʜᴏᴜʟᴅ"
+        f"ʙᴇ ᴜᴘᴛᴏ {Config.MAX_TRIM_DURATION}s. \n**sᴛᴀʀᴛ:ᴇɴᴅ**\n\nEg: `400:500` ==> Tʜɪs ᴛʀɪᴍs ᴠɪᴅᴇᴏ ғʀᴏᴍ 400s ᴛᴏ 500s",
         reply_to_message_id=m.message.reply_to_message.message_id,
         reply_markup=ForceReply(),
     )
