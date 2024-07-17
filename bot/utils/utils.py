@@ -234,41 +234,41 @@ class Utilities:
         font_size = await db.get_font_size(chat_id)
 
         sv_btn = [
-            InlineKeyboardButton("Sample Video Duration", "rj"),
+            InlineKeyboardButton("Sᴀᴍᴘʟᴇ Vɪᴅᴇᴏ Dᴜʀᴀᴛɪᴏɴ", "rj"),
             InlineKeyboardButton(f"{sample_duration}s", "set+sv"),
         ]
         wc_btn = [
-            InlineKeyboardButton("Watermark Color", "rj"),
+            InlineKeyboardButton("Wᴀᴛᴇʀᴍᴀʀᴋ Cᴏʟᴏʀ", "rj"),
             InlineKeyboardButton(f"{Config.COLORS[watermark_color_code]}", "set+wc"),
         ]
         fs_btn = [
-            InlineKeyboardButton("Watermark Font Size", "rj"),
+            InlineKeyboardButton("Wᴀᴛᴇʀᴍᴀʀᴋ Fᴏɴᴛ Sɪᴢᴇ", "rj"),
             InlineKeyboardButton(f"{Config.FONT_SIZES_NAME[font_size]}", "set+fs"),
         ]
         wp_btn = [
-            InlineKeyboardButton("Watermark Position", "rj"),
+            InlineKeyboardButton("Wᴀᴛᴇʀᴍᴀʀᴋ Pᴏsɪᴛɪᴏɴ", "rj"),
             InlineKeyboardButton(f"{Config.POSITIONS[watermark_position]}", "set+wp"),
         ]
-        as_file_btn = [InlineKeyboardButton("Upload Mode", "rj")]
-        wm_btn = [InlineKeyboardButton("Watermark", "rj")]
-        sm_btn = [InlineKeyboardButton("Screenshot Generation Mode", "rj")]
+        as_file_btn = [InlineKeyboardButton("Uᴘʟᴏᴀᴅ Mᴏᴅᴇ", "rj")]
+        wm_btn = [InlineKeyboardButton("Wᴀᴛᴇʀᴍᴀʀᴋ", "rj")]
+        sm_btn = [InlineKeyboardButton("Sᴄʀᴇᴇɴsʜᴏᴛ Gᴇɴᴇʀᴀᴛɪᴏɴ Mᴏᴅᴇ", "rj")]
 
         if as_file:
             as_file_btn.append(
-                InlineKeyboardButton("📁 Uploading as Document.", "set+af")
+                InlineKeyboardButton("📁 Uᴘʟᴏᴀᴅɪɴɢ ᴀs Dᴏᴄᴜᴍᴇɴᴛ.", "set+af")
             )
         else:
-            as_file_btn.append(InlineKeyboardButton("🖼️ Uploading as Image.", "set+af"))
+            as_file_btn.append(InlineKeyboardButton("🖼️ Uᴘʟᴏᴀᴅɪɴɢ ᴀs Iᴍᴀɢᴇ.", "set+af"))
 
         if watermark_text:
             wm_btn.append(InlineKeyboardButton(f"{watermark_text}", "set+wm"))
         else:
-            wm_btn.append(InlineKeyboardButton("No watermark exists!", "set+wm"))
+            wm_btn.append(InlineKeyboardButton("Nᴏ ᴡᴀᴛᴇʀᴍᴀʀᴋ ᴇxɪsᴛs", "set+wm"))
 
         if screenshot_mode == 0:
-            sm_btn.append(InlineKeyboardButton("Equally spaced screenshots", "set+sm"))
+            sm_btn.append(InlineKeyboardButton("Eᴏ̨ᴜᴀʟʟʏ sᴘᴀᴄᴇᴅ sᴄʀᴇᴇɴsʜᴏᴛs", "set+sm"))
         else:
-            sm_btn.append(InlineKeyboardButton("Random screenshots", "set+sm"))
+            sm_btn.append(InlineKeyboardButton("Rᴀɴᴅᴏᴍ sᴄʀᴇᴇɴsʜᴏᴛs", "set+sm"))
 
         settings_btn = [as_file_btn, wm_btn, wc_btn, fs_btn, wp_btn, sv_btn, sm_btn]
 
@@ -280,7 +280,7 @@ class Utilities:
             return
 
         await m.reply_text(
-            text="Here You can configure my behavior.\n\nPress the button to change the settings.",
+            text="Hᴇʀᴇ Yᴏᴜ ᴄᴀɴ ᴄᴏɴғɪɢᴜʀᴇ ᴍʏ ʙᴇʜᴀᴠɪᴏʀ.\n\nPʀᴇss ᴛʜᴇ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴄʜᴀɴɢᴇ ᴛʜᴇ sᴇᴛᴛɪɴɢs.",
             quote=True,
             reply_markup=InlineKeyboardMarkup(settings_btn),
         )
@@ -296,7 +296,7 @@ class Utilities:
                 i_keyboard = []
             if i == 10:
                 btns.append(i_keyboard)
-        btns.append([InlineKeyboardButton("Manual Screenshots!", "mscht")])
-        btns.append([InlineKeyboardButton("Trim Video!", "trim")])
-        btns.append([InlineKeyboardButton("Get Media Information", "mi")])
+        btns.append([InlineKeyboardButton("Mᴀɴᴜᴀʟ Sᴄʀᴇᴇɴsʜᴏᴛs", "mscht")])
+        btns.append([InlineKeyboardButton("Tʀɪᴍ Vɪᴅᴇᴏ", "trim")])
+        btns.append([InlineKeyboardButton("Gᴇᴛ Mᴇᴅɪᴀ Iɴғᴏʀᴍᴀᴛɪᴏɴ", "mi")])
         return btns
