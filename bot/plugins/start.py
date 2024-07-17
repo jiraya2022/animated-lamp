@@ -8,18 +8,18 @@ from ..screenshotbot import ScreenShotBot
 async def start(c, m):
 
     await m.reply_text(
-        text=f"Hi there {m.from_user.mention}.\n\nI'm Screenshot Generator Bot. I can provide screenshots from "
-        "your video files without downloading the entire file (almost instantly). For more details check /help.",
+        text=f"I'ᴍ Sᴄʀᴇᴇɴsʜᴏᴛ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ. I ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ sᴄʀᴇᴇɴsʜᴏᴛs ғʀᴏᴍ"
+        "ʏᴏᴜʀ ᴠɪᴅᴇᴏ ғɪʟᴇs ᴡɪᴛʜᴏᴜᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ᴇɴᴛɪʀᴇ ғɪʟᴇ (ᴀʟᴍᴏsᴛ ɪɴsᴛᴀɴᴛʟʏ). Fᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴄʜᴇᴄᴋ /ʜᴇʟᴘ.",
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Source 😒", url="https://github.com/odysseusmax/animated-lamp"
+                        "Dᴏɴᴀᴛᴇ", url="https://aslink.in/payy"
                     ),
-                    InlineKeyboardButton("Project Channel", url="https://t.me/odbots"),
+                    InlineKeyboardButton("Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://t.me/The_Happy_Hours"),
                 ],
-                [InlineKeyboardButton("My Father", url="https://t.me/odysseusmax")],
+                [InlineKeyboardButton("Cᴏɴᴛᴇᴄᴛ Us", url="https://t.me/ThappyHour")],
             ]
         ),
     )
